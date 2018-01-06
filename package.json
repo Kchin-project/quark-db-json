@@ -1,0 +1,35 @@
+{
+    "name": "quark-db-json",
+    "version": "1.0.4",
+    "description": "Database using JSON file as storage for Node.JS",
+    "main": "./quarkDB.js",
+    "scripts": {
+        "test": ""
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:Kchn-project/quarkDB.git"
+    },
+    "keywords": [
+        "database",
+        "json",
+        "db"
+    ],
+    "author": "Luis Acerv <service@k-chinm.mx>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Kchin-project/quarkDB/issues"
+    },
+    "homepage": "https://github.com/Kchin-project/quarkDB",
+    "dependencies": {
+        "mkdirp": "0.5.x"
+    },
+    "devDependencies": {
+        "mocha": "2.4.x",
+        "expect.js": "0.3.x",
+        "grunt": "0.4.x",
+        "grunt-cli": "0.1.x",
+        "grunt-contrib-jshint" : "0.11.x",
+        "grunt-simple-mocha" : "0.4.x"
+    }
+}
